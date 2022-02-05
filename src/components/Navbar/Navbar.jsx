@@ -8,6 +8,7 @@ import logo from '../../assets/commerce.png'
 import useStyles from './styles'
 
 const Navbar = ({totalItems}) => {
+    console.log('Update total item:',totalItems)
     const classes = useStyles()
     return (
     <>
