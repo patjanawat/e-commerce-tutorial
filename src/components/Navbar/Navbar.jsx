@@ -7,8 +7,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/commerce.png'
 import useStyles from './styles'
 
-const Navbar = ({totalItems}) => {
-    console.log('Update total item:',totalItems)
+const Navbar = ({totalItems}) => {    
     const classes = useStyles()
     return (
     <>
